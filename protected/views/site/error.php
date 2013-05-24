@@ -11,6 +11,5 @@ $this->breadcrumbs=array(
 <h2>Error <?php echo $code; ?></h2>
 
 <div class="error">
-	There is error in your code
 <?php echo CHtml::encode($message); ?>
 </div>
